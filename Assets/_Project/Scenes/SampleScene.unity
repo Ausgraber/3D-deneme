@@ -33585,7 +33585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6656259113944593009, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
       propertyPath: minStepDepth
-      value: 0.3
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6656259113944593009, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
       propertyPath: runningSpeed
@@ -33593,7 +33593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6656259113944593009, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
       propertyPath: maxStepHeight
-      value: 0.5
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 6656259113944593009, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
       propertyPath: rotationSpeed
@@ -33788,8 +33788,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2714011817899227465, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
-      insertIndex: 5
+      insertIndex: 4
       addedObject: {fileID: 9036980634345977579}
+    - targetCorrespondingSourceObject: {fileID: 2714011817899227465, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
+      insertIndex: 6
+      addedObject: {fileID: 9036980634345977598}
   m_SourcePrefab: {fileID: 100100000, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
 --- !u!1 &8189980436100339978 stripped
 GameObject:
@@ -33819,6 +33822,25 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 9038228281606652009, guid: fb9139dc8a121864ca897e3e0c1d90bd, type: 3}
   m_PrefabInstance: {fileID: 2166840863041549739}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9036980634345977598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8189980436100339978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3993ce6aeb7a5498ba5f29e7e283f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxStepHeight: 0.2
+  minStepDepth: 0.1
+  stairSpeed: 1
+  stairDetectionDistance: 3.5
+  stairLayer:
+    serializedVersion: 2
+    m_Bits: 129
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
