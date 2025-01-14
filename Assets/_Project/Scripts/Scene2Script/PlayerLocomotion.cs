@@ -58,8 +58,7 @@ public class PlayerLocomotion : MonoBehaviour
 
        isGrounded= CheckGround();
 
-      
-
+    
       //  Debug.Log($"isGrounded: {isGrounded}, isJumping: {isJumping}, inAirTimer: {inAirTimer}");
 
     }
@@ -138,7 +137,6 @@ public class PlayerLocomotion : MonoBehaviour
                print("Jumping");
                 
                 isGrounded=false;   
-                
                            
             }
            
